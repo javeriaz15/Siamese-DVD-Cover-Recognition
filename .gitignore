@@ -22,3 +22,10 @@ venv/
 
 # Local environment files
 .env
+
+# External evaluation dataset
+data/raw/
+data/evaluation/
+
+# Generated experiment artifacts
+artifacts/
