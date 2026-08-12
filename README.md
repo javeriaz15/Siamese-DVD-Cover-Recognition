@@ -1,4 +1,4 @@
-# Siamese Neural Network Based Model of a Snapshot Mobile App for DVD Finder
+# One-Shot DVD Cover Recognition with a Siamese Network
 **Programmd by**: Juwairiah Zia (javeriazia15@gmail.com) and Enze cui (cuienze2015@gmail.com)<br />
 **Data Set**: Stanford Mobile Visual Search Database<br />
 **Project**:This project describes an algorithm for a mobile photo app where you take a picture of a DVD, and the app tells you all the information about it. The output should be to find out the movie that the DVD cover belongs to.<br />
