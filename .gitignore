@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Testing / tooling
+.pytest_cache/
+.coverage
+
+# IDE / OS
+.vscode/
+.DS_Store
+
+# Model artifacts
+*.pt
+*.pth
+*.onnx
+
+# Local environment files
+.env
