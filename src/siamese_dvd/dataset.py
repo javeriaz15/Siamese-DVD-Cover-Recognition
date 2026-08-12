@@ -43,6 +43,19 @@ def build_baseline_transform(image_size: int = 100):
         ]
     )
 
+def build_inference_transform(image_size: int = 100):
+    """Build deterministic preprocessing for inference and retrieval."""
+
+    return transforms.Compose(
+        [
+            transforms.Grayscale(num_output_channels=1),
+            transforms.Resize(
+                (image_size, image_size),
+                antialias=True,
+            ),
+            transforms.ToTensor(),
+        ]
+    )
 
 class DVDReferencePairDataset(Dataset):
     """Generate similar and dissimilar DVD-cover pairs on demand.
